@@ -1,0 +1,34 @@
+/* General styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Content Area */
+.content {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  overflow-y: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow for separation */
+}
+
+
+.App-header {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.app-title {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Form section */
+.form-section, .list-section {
+  margin: 20px 0;
+}
+

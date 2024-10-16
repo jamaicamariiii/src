@@ -1,0 +1,192 @@
+/* General Styling for the container */
+.student-data-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the Student Data List title */
+.student-data-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1e88e5;
+}
+
+/* Table styles for displaying student data */
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  table-layout: fixed; /* Ensure all columns have the same width */
+}
+
+/* Table header and cell styles */
+.student-table th, .student-table td {
+  border: 1px solid #007bff;
+  padding: 10px;
+  text-align: left;
+  word-wrap: break-word; /* Allow text to wrap within each column */
+}
+
+/* Header row style */
+.student-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Alternate row background color for better readability */
+.student-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Styling for buttons inside the table */
+.blue-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 5px 2px;
+}
+
+.blue-button:hover {
+  background-color: #0056b3;
+}
+
+.blue-button.delete {
+  background-color: #dc3545;
+}
+
+.blue-button.delete:hover {
+  background-color: #b32434;
+}
+
+/* Pagination section styling */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.pagination-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.pagination-button:hover {
+  background-color: #0056b3;
+}
+
+.pagination-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.pagination-info {
+  font-size: 1rem;
+  margin: 0 10px;
+}
+
+/* Filter container styles */
+.filter-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+/* Filter input styling */
+.filter-input {
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Edit form input styles */
+.edit-form input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+}
+
+.edit-form button {
+  margin: 5px;
+  padding: 8px 12px;
+}
+
+/* Chart container for visualizations */
+.chart-container {
+  margin-top: 50px;
+}
+
+/* Titles for charts */
+.chart-container h3 {
+  color: #004080;
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+
+/* CSV Uploader styling */
+.CsvUploader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 50px auto;
+  transition: transform 0.3s ease;
+}
+
+.CsvUploader:hover {
+  transform: translateY(-10px);
+}
+
+input[type="file"] {
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* Styling the upload button */
+.upload {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  text-align: center;
+}
+
+.upload:hover {
+  background-color: #0056b3;
+}
+
+.upload:active {
+  transform: scale(0.98);
+  background-color: #004080;
+}
